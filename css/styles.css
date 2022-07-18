@@ -1281,8 +1281,8 @@ margin-left: 24px;
     transition: border-color var(--animation-time);
 }
 
-.texteria-field:focus {
-    border: 2px solid var(--accent);
+textarea.texteria-field:focus {
+    outline: 1px solid var(--accent);
 }
 
 
