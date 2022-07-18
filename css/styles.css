@@ -13,6 +13,8 @@ html {
     box-sizing: inherit;
 }
 
+
+
 h1, h2, h3 {
     margin: 0;
 }
@@ -1275,11 +1277,12 @@ margin-left: 24px;
     resize: none;
     border-radius: 3px;
     
+
     transition: border-color var(--animation-time);
 }
 
-.texteria-field:focus::placeholder {
-    border: #2196F3;
+.texteria-field:focus {
+    border: 2px solid var(--accent);
 }
 
 
@@ -1345,8 +1348,8 @@ margin-left: 24px;
 
 
 .button-send {
-    display: inline-block;
-    justify-content: center;
+    display: block;
+    margin: 0 auto;
 
     font-weight: 700;
     padding: 0;
