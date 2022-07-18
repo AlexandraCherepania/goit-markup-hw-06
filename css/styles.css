@@ -865,6 +865,8 @@ svg:focus {
     font-weight: 700;
     color: var(--fon-second);
     text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 20px;
     
 }
 .footer-form-style {
@@ -904,6 +906,7 @@ svg:focus {
     color: #FFFFFF;
     align-items: center;
     justify-content: center;
+
     
    
     
@@ -912,7 +915,7 @@ svg:focus {
 
 
 .footer-client-icon {
-
+    margin-left: 10px;
     fill: #F5F4FA;
 
 }
@@ -1220,10 +1223,17 @@ margin-left: 24px;
     transition: border-color var(--animation-time);
 
 }
+
+.form-field:focus, .form-field:hover {
+    border-color: var(--accent);
+}
 .form-field:focus,
 .form-field:placeholder-shown {
     border-color: var(--accent);
 }
+
+
+
 .form-field:focus+.form-icon,
 .form-field:hover+.form-icon {
     fill: var(--accent);
